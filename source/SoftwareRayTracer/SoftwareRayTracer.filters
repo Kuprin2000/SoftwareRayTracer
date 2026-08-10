@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LiteMath">
+      <UniqueIdentifier>{27e3d6b3-b212-4c16-9d3a-a1bb24509159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loaders">
+      <UniqueIdentifier>{45981f3e-438e-47b8-b00c-acf0c299cf1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_mesh_no_bvh.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LiteMath\Image2d.cpp">
+      <Filter>LiteMath</Filter>
+    </ClCompile>
+    <ClCompile Include="lbvh.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_mesh_bvh.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_grid.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_to_grid.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="aligned_vector.h">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_grid_minus_sphere.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_octree.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="octree.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_plane.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_to_octree.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="app_data.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_mesh_no_bvh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lbvh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LiteMath\LiteMath.h">
+      <Filter>LiteMath</Filter>
+    </ClInclude>
+    <ClInclude Include="LiteMath\Image2d.h">
+      <Filter>LiteMath</Filter>
+    </ClInclude>
+    <ClInclude Include="LiteMath\half.hpp">
+      <Filter>LiteMath</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_mesh_bvh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_grid.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_to_grid.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_grid_minus_sphere.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_octree.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="octree.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_plane.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_to_octree.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
